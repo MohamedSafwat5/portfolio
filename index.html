@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mohamed Safwat — Cloud Computing and AWS projects, networking and Linux background.">
+  <title>Mohamed Safwat | Cloud Computing & AWS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-grid"></div>
+
+  <aside class="sidebar">
+    <a class="brand" href="#home">MS</a>
+    <nav>
+      <a class="active" href="#home"><span>⌂</span><small>Home</small></a>
+      <a href="#about"><span>◉</span><small>About</small></a>
+      <a href="#skills"><span>◆</span><small>Skills</small></a>
+      <a href="#projects"><span>▣</span><small>Projects</small></a>
+      <a href="#journey"><span>↗</span><small>Journey</small></a>
+      <a href="#contact"><span>✉</span><small>Contact</small></a>
+    </nav>
+  </aside>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-copy">
+        <p class="eyebrow">HELLO, I'M</p>
+        <h1>Mohamed<br><span>Safwat</span></h1>
+        <h2>Cloud Computing & AWS</h2>
+        <p class="lead">Building practical cloud solutions with <b>AWS</b>, <b>Networking</b>, and <b>Linux</b> through hands-on projects.</p>
+        <div class="actions">
+          <a class="btn primary" href="#projects">View My Projects <span>↓</span></a>
+          <a class="btn ghost" href="https://www.linkedin.com/in/mohamed-safwat-5b1400428" target="_blank" rel="noopener">LinkedIn ↗</a>
+        </div>
+        <div class="quick-tags">
+          <span>☁ AWS Cloud</span>
+          <span>⌁ Networking</span>
+          <span>⌘ Linux</span>
+          <span>+ Hands-on Projects</span>
+        </div>
+      </div>
+
+      <div class="hero-art" aria-label="Cloud architecture illustration">
+        <div class="orbit orbit-a"></div>
+        <div class="orbit orbit-b"></div>
+        <div class="cloud">
+          <div class="cloud-shape">☁</div>
+          <strong>AWS</strong>
+          <small>Cloud Projects</small>
+        </div>
+        <div class="node node-1">EC2</div>
+        <div class="node node-2">S3</div>
+        <div class="node node-3">RDS</div>
+        <div class="node node-4">VPC</div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-head"><span></span><div><p class="eyebrow">01 / ABOUT</p><h2>A little about me</h2></div></div>
+      <div class="about-grid">
+        <div class="panel about-text">
+          <p>I'm focused on Cloud Computing and AWS, with a strong foundation in networking and Linux.</p>
+          <p>I build practical AWS environments and work with services such as VPC, EC2, S3, RDS, Load Balancing, Auto Scaling, and CloudWatch.</p>
+          <p>I prefer learning by building, testing, troubleshooting, and understanding how the pieces fit together.</p>
+        </div>
+        <div class="panel facts">
+          <div><span>🎓</span><p><b>Education</b><br>Faculty of Computers & Information<br>Mansoura University</p></div>
+          <div><span>☁</span><p><b>Focus</b><br>AWS Cloud • Architecture<br>Hands-on Projects</p></div>
+          <div><span>⌁</span><p><b>Foundation</b><br>CCNA • MCSA • Linux<br>Networking & Systems</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-head"><span></span><div><p class="eyebrow">02 / SKILLS</p><h2>What I'm working with</h2></div></div>
+      <div class="cards skills-grid">
+        <article class="card"><div class="icon">☁</div><h3>Cloud / AWS</h3><p>VPC · EC2 · S3 · RDS · IAM · ALB · Auto Scaling · CloudWatch · SNS</p></article>
+        <article class="card"><div class="icon">⌁</div><h3>Networking</h3><p>TCP/IP · Subnetting · VLAN · Routing · NAT · Security concepts</p></article>
+        <article class="card"><div class="icon">▤</div><h3>Systems</h3><p>Linux · Windows Server · Command Line · System Administration</p></article>
+        <article class="card"><div class="icon">⚙</div><h3>Tools</h3><p>AWS Console · GitHub · Cisco Packet Tracer · Documentation · Problem Solving</p></article>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-head"><span></span><div><p class="eyebrow">03 / PROJECTS</p><h2>Hands-on AWS Projects</h2></div></div>
+      <p class="muted intro">Practical AWS projects built to understand cloud infrastructure, deployment, scalability, and availability.</p>
+      <div class="cards projects-grid" style="grid-template-columns:repeat(3,1fr)">
+        <article class="project">
+          <div class="project-top"><span class="project-icon">▣</span><span class="status">PROJECT</span></div>
+          <h3>AWS EC2 Web Deployment</h3>
+          <p>Deployed a web application on EC2 using a custom VPC, public subnet, Internet Gateway, route table, security group, and Nginx.</p>
+          <div class="chips"><span>EC2</span><span>VPC</span><span>Nginx</span></div>
+          <a href="https://github.com/MohamedSafwat5/aws-ec2-web-deployment" target="_blank" rel="noopener">View on GitHub ↗</a>
+        </article>
+        <article class="project">
+          <div class="project-top"><span class="project-icon">▰</span><span class="status">PROJECT</span></div>
+          <h3>S3 Static Website Hosting</h3>
+          <p>Hosted a static website on Amazon S3 with an index document, static website configuration, and bucket access policy.</p>
+          <div class="chips"><span>S3</span><span>Hosting</span><span>Security</span></div>
+          <a href="https://github.com/MohamedSafwat5/aws-s3-static-website" target="_blank" rel="noopener">View on GitHub ↗</a>
+        </article>
+        <article class="project">
+          <div class="project-top"><span class="project-icon">◈</span><span class="status">PROJECT</span></div>
+          <h3>AWS High Availability Web Application</h3>
+          <p>Built a highly available web architecture using VPC, two public subnets, ALB, EC2 Auto Scaling, private RDS MySQL, CloudWatch, and SNS.</p>
+          <div class="chips"><span>ALB</span><span>Auto Scaling</span><span>RDS</span></div>
+          <a href="https://github.com/MohamedSafwat5/aws-high-availability-web-application" target="_blank" rel="noopener">View on GitHub ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="journey" class="section">
+      <div class="section-head"><span></span><div><p class="eyebrow">04 / JOURNEY</p><h2>Learning path</h2></div></div>
+      <div class="timeline">
+        <div class="step"><div class="dot">01</div><div><span class="label">FOUNDATION</span><h3>Networking & Systems</h3><p>CCNA · MCSA · Linux</p></div></div>
+        <div class="line"></div>
+        <div class="step"><div class="dot">02</div><div><span class="label">CURRENT</span><h3>AWS Cloud</h3><p>VPC · EC2 · S3 · RDS · ALB · Auto Scaling · CloudWatch</p></div></div>
+        <div class="line"></div>
+        <div class="step"><div class="dot">03</div><div><span class="label">NEXT</span><h3>Keep building</h3><p>More AWS projects · Cloud Practitioner · Solutions Architect</p></div></div>
+      </div>
+      <div class="depi"><span>DEPI</span><div><b>Currently learning through DEPI</b><p>Cloud-focused training and practical learning.</p></div></div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div>
+        <p class="eyebrow">05 / CONTACT</p>
+        <h2>Let's connect.</h2>
+        <p class="muted">Open to cloud opportunities, freelance projects, and connecting with people in the cloud space.</p>
+        <div style="margin-top:18px;line-height:1.9">
+          <div><b>Phone:</b> <a href="tel:01010476374">01010476374</a></div>
+          <div><b>Email:</b> <a href="mailto:Safwatm625@gmail.com">Safwatm625@gmail.com</a></div>
+          <div><b>GitHub:</b> <a href="https://github.com/MohamedSafwat5" target="_blank" rel="noopener">github.com/MohamedSafwat5</a></div>
+        </div>
+      </div>
+      <a class="btn primary" href="https://www.linkedin.com/in/mohamed-safwat-5b1400428" target="_blank" rel="noopener">Connect on LinkedIn ↗</a>
+    </section>
+
+    <footer>
+      <div><b>Mohamed Safwat</b><span>Cloud Computing & AWS</span></div>
+      <p>Keep learning. Keep building.</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
